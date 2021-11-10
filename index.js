@@ -40,7 +40,6 @@ function getRandomColor() {
   }
   const main =document.querySelector('.main-container');
   const addButton=document.querySelector('#add-button');
-  
   const colorCont=document.querySelector('.color-container');
   const input = document.querySelector('#valueInput');
   const colorContainer=document.querySelector('#color-container');
@@ -52,18 +51,14 @@ function getRandomColor() {
     if(e.target == addButton)
     {
         countBox = input.value;
-        
         setRandomColor(countBox)
     }
 
     if(e.target.matches('.remove-button'))
     {
-        
         e.path[1].remove();
          input.value-- 
-        
     }
-    
   })
   
   
