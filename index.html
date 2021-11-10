@@ -19,24 +19,20 @@
   cursor: pointer;
 }
 .muster-box{
-  width: 500px;
+  width: 400px;
   height: 200px;
-   
+  border-radius: 10px;
+
 }
 
 </style>
 </head>
 <body>
-    <div class="main-container m-auto ">
-    <h1>Random Color Generator</h1>
-    <div class="  d-flex justify-content-start flex-wrap" id="color-container">
-        <div class=" muster-box m-4 d-flex justify-content-center  ">
-                <button class="remove-button align-self-end ">X</button>
-                <p class=" hex-code card-text text-light align-self-center">Hier steht hex-code </p>
-        </div>
-        
+    <div class="main-container  ">
+    <h1 class="text-center m-3" >Random Color Generator</h1>
+    <div class=" d-flex m-autojustify-content-start flex-wrap" id="color-container"></div>
 
-    </div>
+      <!-- color boxes -->
 
     <div class="button-container ">
         <input type="number" class=" m-4" value ="" id="valueInput">
