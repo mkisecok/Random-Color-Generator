@@ -1,4 +1,4 @@
-## Instructions for students:
+## Instructions 
 
 ### Random Color Generator
 
@@ -12,9 +12,4 @@ Example once your program is running properly:
 
 
 
-
-### Rules
-
--   This is an individual assignment.
--   Deadline: 2 hours.
 
